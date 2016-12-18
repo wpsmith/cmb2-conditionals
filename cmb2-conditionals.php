@@ -100,10 +100,6 @@ if ( ! class_exists( 'CMB2_Conditionals' ) ) {
 		 * Decide whether to include the js-script or not.
 		 */
 		public function admin_footer() {
-		    if ( ! in_array( $GLOBALS['pagenow'], array( 'post-new.php', 'post.php' ), true ) ) {
-		    	return;
-		    }
-
 			wp_enqueue_script(
 				'cmb2-conditionals',
 				plugins_url( '/cmb2-conditionals.js', __FILE__ ),

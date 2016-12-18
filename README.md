@@ -1,14 +1,14 @@
 # CMB2 Conditionals
 
-[![Join the chat at https://gitter.im/jcchavezs/cmb2-conditionals](https://badges.gitter.im/jcchavezs/cmb2-conditionals.svg)](https://gitter.im/jcchavezs/cmb2-conditionals?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Total Downloads](https://poser.pugx.org/jcchavezs/cmb2-conditionals/downloads)](https://packagist.org/packages/jcchavezs/cmb2-conditionals)
-[![License](https://poser.pugx.org/jcchavezs/cmb2-conditionals/license)](https://packagist.org/packages/jcchavezs/cmb2-conditionals)
+[![Join the chat at https://gitter.im/wpsmith/cmb2-conditionals](https://badges.gitter.im/wpsmith/cmb2-conditionals.svg)](https://gitter.im/wpsmith/cmb2-conditionals?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Total Downloads](https://poser.pugx.org/wpsmith/cmb2-conditionals/downloads)](https://packagist.org/packages/wpsmith/cmb2-conditionals)
+[![License](https://poser.pugx.org/wpsmith/cmb2-conditionals/license)](https://packagist.org/packages/wpsmith/cmb2-conditionals)
 
-**Contributors:**      [jcchavezs](https://github.com/jcchavezs)  
+**Contributors:**      [wpsmith](https://github.com/wpsmith)  
 **Tags:**              cmb2, conditionals, metaboxes  
 **Requires at least:** 3.8.0  
 **Tested up to:**      4.3  
-**Stable tag:**        1.0.4  
+**Stable tag:**        1.0.5  
 **License:**           GPLv2 or later  
 **License URI:**       [http://www.gnu.org/licenses/gpl-2.0.html](http://www.gnu.org/licenses/gpl-2.0.html)  
 
@@ -27,9 +27,9 @@ To get started, please follow the examples in the included `example-functions.ph
 - CMB2
 
 ## Contribution
-All contributions welcome. If you would like to submit a pull request, please check out the [master branch](https://github.com/jcchavezs/cmb2-conditionals/tree/master) and pull request against it. Please read the [CONTRIBUTING](https://github.com/jcchavezs/cmb2-conditionals/blob/master/CONTRIBUTING.md) doc for more details.
+All contributions welcome. If you would like to submit a pull request, please check out the [master branch](https://github.com/wpsmith/cmb2-conditionals/tree/master) and pull request against it. Please read the [CONTRIBUTING](https://github.com/wpsmith/cmb2-conditionals/blob/master/CONTRIBUTING.md) doc for more details.
 
-A complete list of all our awesome contributors found here: [github.com/jcchavezs/cmb2-conditionals/graphs/contributors](https://github.com/jcchavezs/cmb2-conditionals/graphs/contributors)
+A complete list of all our awesome contributors found here: [github.com/wpsmith/cmb2-conditionals/graphs/contributors](https://github.com/wpsmith/cmb2-conditionals/graphs/contributors)
 
 ## Installation
 

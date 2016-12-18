@@ -7,7 +7,7 @@ Support is not offered for this library, and the likelihood that the maintainers
 
 Before reporting a bug
 ---
-1. Search [issues](https://github.com/jcchavezs/cmb2-conditionals/issues) to see if the issue has been previously reported.
+1. Search [issues](https://github.com/wpsmith/cmb2-conditionals/issues) to see if the issue has been previously reported.
 2. Install the master version of CMB2 Conditionals and test there.
 
 

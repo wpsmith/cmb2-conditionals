@@ -3,25 +3,25 @@
  * CMB2 Conditionals.
  *
  * @package     WordPress\Plugins\CMB2 Conditionals
- * @author      José Carlos Chávez <jcchavezs@gmail.com>
- * @link        https://github.com/jcchavezs/cmb2-conditionals
- * @version     1.0.4
+ * @author      José Carlos Chávez <wpsmith@gmail.com>
+ * @link        https://github.com/wpsmith/cmb2-conditionals
+ * @version     1.0.5
  *
  * @copyright   2015 José Carlos Chávez
  * @license     http://creativecommons.org/licenses/GPL/2.0/ GNU General Public License, version 3 or higher
  *
  * @wordpress-plugin
  * Plugin Name:       CMB2 Conditionals
- * Plugin URI:        https://github.com/jcchavezs/cmb2-conditionals
+ * Plugin URI:        https://github.com/wpsmith/cmb2-conditionals
  * Description:       Plugin to establish conditional relationships between fields in a CMB2 metabox.
- * Author:            José Carlos Chávez <jcchavezs@gmail.com>
- * Author URI:        http://github.com/jcchavezs
- * Github Plugin URI: https://github.com/jcchavezs/cmb2-conditionals
+ * Author:            José Carlos Chávez <wpsmith@gmail.com>
+ * Author URI:        http://github.com/wpsmith
+ * Github Plugin URI: https://github.com/wpsmith/cmb2-conditionals
  * Github Branch:     master
- * Version:           1.0.4
+ * Version:           1.0.5
  * License:           GPL v3
  *
- * Copyright (C) 2015, José Carlos Chávez - jcchavezs@gmail.com
+ * Copyright (C) 2015, José Carlos Chávez - wpsmith@gmail.com
  *
  * GNU General Public License, Free Software Foundation <http://creativecommons.org/licenses/GPL/3.0/>
  *
@@ -58,7 +58,7 @@ if ( ! class_exists( 'CMB2_Conditionals' ) ) {
 		 *
 		 * @const string
 		 */
-		const VERSION = '1.0.4';
+		const VERSION = '1.0.5';
 
 		/**
 		 * CMB2 Form elements which can be set to "required".
@@ -100,10 +100,6 @@ if ( ! class_exists( 'CMB2_Conditionals' ) ) {
 		 * Decide whether to include the js-script or not.
 		 */
 		public function admin_footer() {
-		    if ( ! in_array( $GLOBALS['pagenow'], array( 'post-new.php', 'post.php' ), true ) ) {
-		    	return;
-		    }
-
 			wp_enqueue_script(
 				'cmb2-conditionals',
 				plugins_url( '/cmb2-conditionals.js', __FILE__ ),

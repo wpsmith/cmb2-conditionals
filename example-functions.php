@@ -8,7 +8,7 @@
  * @category YourThemeOrPlugin
  * @package  Demo_CMB2_Conditionals
  * @license  http://www.opensource.org/licenses/gpl-license.php GPL v2.0 (or later)
- * @link     https://github.com/jcchavezs/cmb2-conditionals
+ * @link     https://github.com/wpsmith/cmb2-conditionals
  */
 
 /**
